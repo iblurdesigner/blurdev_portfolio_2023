@@ -1,21 +1,42 @@
+import Image from "next/image";
+import Link from "next/link";
+import logo from '../../public/logoEmotivo.png'
+import hero from "../../public/hero.jpg";
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center py-5 px-5 md:pt-10 md:pl-10 md:pr-10 h-screen">
-      <div className="z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex border h-20">
-        <p>header nav</p>
+      <div className="z-10 max-w-5xl grid grid-flow-row md:grid md:grid-cols-2 w-full h-fit text-sm">
+        <div className="w-full flex justify-center lg:w-1/2">
+          <Image src={logo} width={329} height={80} className="" alt="logoeMotivoDev" />
+        </div>
+        <div className="flex justify-between w-full px-10 py-5 md:px-20 ml-auto">
+          <Link href="/">Home</Link>
+          <Link href="#portfolio">Portfolio</Link>
+          <Link href="#contacto">Contact</Link>
+        </div>
       </div>
 
-      <article className="w-full max-w-5xl items-center justify-between h-fit py-5 bg-slate-50 ">
+      <article className="w-full max-w-5xl items-center justify-between py-5 bg-blurdev-dark ">
         <section className=" justify-between md:flex">
-          <div className="bg-green-700 w-full items-center justify-between text-sm md:flex h-full py-20">izquiewda</div>
-          <div className="bg-orange-300 w-full items-center justify-between text-sm md:flex h-full py-20">derecha</div>
+          <article className="w-full text-sm md:flex-col py-5">
+            <div className="h-full md:py-5">
+              <p className="text-2xl ">Hola, soy David Flores</p>
+              <h1 className=" text-5xl text-blurdev">Frontend Developer</h1>
+              <h5 className=" text-lg">y apasionado con el análisis de datos</h5>
+              <button className="bg-blurdev text-blurdev-dark text-xl font-bold px-5 py-2 rounded-md mt-10">Descargar CV</button>
+            </div>
+          </article>
+          <div className="bg-orange-300 w-full text-sm md:flex ">
+            <Image src={hero} width={732} height={704} className=" object-cover" alt="hero" />
+          </div>
         </section>
       </article>
 
 
-      <section className=" bg-teal-500 z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex border h-10 group transition-colors">
-        <span className="text-center justify-center w-full inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+      <section className="z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex group">
+        <span className="text-center text-6xl text-blurdev justify-center w-full inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none rotate-90 hover:translate-y-2">
+          ⨠
         </span>
       </section>
 
@@ -81,7 +102,7 @@ export default function Home() {
 
       <section className="border max-w-5xl w-full items-center">
         <div>
-          <h4 className=" bg-blue-600 h-fit py-5 text-center">Hecho con Love</h4>
+          <h4 className=" bg-blue-600 h-fit py-5 text-center">©2023, Hecho con ❤️ por Blur</h4>
         </div>
       </section>
         {/* <a
