@@ -14,7 +14,8 @@ module.exports = {
       },
       colors: {
         'blurdev': '#57F3C3',
-        'blurdev-dark': '#1F2441'
+        'blurdev-dark': '#1F2441',
+        'devmorado': '#6D57F3'
       }
     },
   },
