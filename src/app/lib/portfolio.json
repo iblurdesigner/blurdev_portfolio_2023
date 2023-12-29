@@ -7,22 +7,19 @@
       "webstatic": "Static Websites",
       "mobileapps": "Mobile apps"
     },
-  "jobs": 
+
+  "ecommerce": [
     {
-      "ecommerce": [
-        {
-          "id": 1,
-          "image":
-            "https://storage.googleapis.com/blurdev_portfolio_bucket/webapp/ceiq_shop.jpg",
-          "url": "https://ceiq-shop.vercel.app/",
-          "title": "CEIQ Shop",
-          "description":
-            "E-commerce para CEIQ, desarrollado con Next.js. Pasarela de pago como Stripe, PayPal y la criptomoneda Etherium con la wallet Metamask"
-        }
-        
-        
-      ]
-    },
+      "id": 1,
+      "image":
+        "https://storage.googleapis.com/blurdev_portfolio_bucket/webapp/ceiq_shop.jpg",
+      "url": "https://ceiq-shop.vercel.app/",
+      "title": "CEIQ Shop",
+      "description":
+        "E-commerce para CEIQ, desarrollado con Next.js. Pasarela de pago como Stripe, PayPal y la criptomoneda Etherium con la wallet Metamask"
+    }
+  ],
+
   
   "webapp": [
     {
