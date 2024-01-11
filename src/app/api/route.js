@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import apiblur from "../lib/portfolio.json";
+import apiblur from "../../../public/portfolio.json";
 
 export async function GET() {
     return NextResponse.json({

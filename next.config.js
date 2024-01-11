@@ -8,10 +8,22 @@ const securityHeaders = [
 
 const nextConfig = {
   compress: true,
-  concurrentFeatures: true,
   reactStrictMode: true,
   images: {
-    domains: ["res.cloudinary.com", "storage.googleapis.com"]
+    remotePatterns: [
+      {
+        hostname: "res.cloudinary.com"
+      },
+      {
+        hostname:"storage.googleapis.com", 
+      },
+      {
+        hostname:"rickandmortyapi.com",  
+      },
+      {
+        hostname:"http://localhost:3000/api"
+      }
+    ]
   },
   async headers() {
     return [

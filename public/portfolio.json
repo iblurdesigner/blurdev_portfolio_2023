@@ -74,6 +74,7 @@
       "category": "mobileapps",
       "image": "https://storage.googleapis.com/blurdev_portfolio_bucket/js/gnm.jpg",
       "title": "CEIQ app",
+      "url": "https://google.com",
       "description":
         "Medical Education app by CEIQ, we choose this SDK to gave this app in two plattforms, iOS and Android"
     },
@@ -134,7 +135,7 @@
       "url": "http://iblurdesigner.github.io/emotivo/",
       "title": "Portafolio",
       "description":
-        "Portafolio, manipulando una plantilla y utilizando jQuery"
+        "Primer Portafolio, manipulando una plantilla y utilizando jQuery"
     },
     {
       "id": 14,

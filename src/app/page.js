@@ -4,11 +4,12 @@ import logo from '../../public/logoEmotivo.png'
 import hero from "../../public/hero.jpg";
 import SocialMedia from "./components/Social_media";
 import CardJobs from "./components/Card_jobs";
+import Job from "./components/Job";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center py-5 px-5 md:pt-10 md:pl-10 md:pr-10 xl:pt-4 h-screen">
-      <div className="border z-10 lg:w-[80%] grid grid-flow-row md:grid md:grid-cols-2 w-full h-fit text-sm">
+      <div className="z-10 lg:w-[80%] grid grid-flow-row md:grid md:grid-cols-2 w-full h-fit text-sm">
         <div className="w-full flex justify-center lg:w-1/2">
           <Image src={logo} width={329} height={80} className="" alt="logoeMotivoDev" />
         </div>
@@ -19,7 +20,7 @@ export default function Home() {
         </div>
       </div>
 
-      <article className="border w-full lg:w-[80%] items-center justify-between py-5 bg-blurdev-dark ">
+      <article className="w-full lg:w-[80%] items-center justify-between py-5 bg-blurdev-dark ">
         <section className="justify-between md:flex">
           <article className="w-full md:w-3/5 lg:w-full text-sm md:flex-col">
             <div className="lg:pt-40 ">
@@ -52,22 +53,13 @@ export default function Home() {
 
 
       
-      <section className="border lg:w-[80%] w-full h-30 items-center text-center md:p-10">
+      <section className=" lg:w-[80%] w-full h-30 items-center text-center md:p-10">
         <h2 className="text-5xl text-blurdev">Proyectos</h2>
         <p className="text-lg">su imaginación en código</p>
 
-        <div className="flex flex-wrap justify-evenly m-auto w-full xl:w-1/2 py-5 text-sm">
-          <button className=" bg-devmorado px-8 py-4 m-2 md:px-5 md:py-2 rounded-3xl">Todos</button>
-          <button className="bg-devmorado px-8 py-4 m-2 md:px-5 md:py-2 rounded-3xl">E-commerce</button>
-          <button className="bg-devmorado px-8 py-4 m-2 md:px-5 md:py-2 rounded-3xl">Páginas estáticas</button>
-          <button className="bg-devmorado px-8 py-4 m-2 md:px-5 md:py-2 rounded-3xl">Responsive</button>
-        </div>
         
-        <section className="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
-          <CardJobs />
-          <CardJobs />
-          <CardJobs />
-          <CardJobs />
+        <section>
+          <Job />
         </section>
       </section>
       
