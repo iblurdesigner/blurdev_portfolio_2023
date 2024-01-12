@@ -2,9 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from '../../public/logoEmotivo.png'
 import hero from "../../public/hero.jpg";
-import SocialMedia from "./components/Social_media";
-import CardJobs from "./components/Card_jobs";
-import Job from "./components/Job";
+import SocialMedia from "../components/Social_media";
+import Job from "../components/Job";
 
 export default function Home() {
   return (

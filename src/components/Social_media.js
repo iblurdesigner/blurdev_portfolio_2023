@@ -1,5 +1,5 @@
-import Github from '../../../public/Github'
-import Linkedin from '../../../public/Linkedin'
+import Github from '../../public/Github'
+import Linkedin from '../../public/Linkedin'
 
 export default function SocialMedia() {
   return (
