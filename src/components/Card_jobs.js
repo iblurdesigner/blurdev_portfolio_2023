@@ -1,7 +1,10 @@
 import Image from "next/image";
 
 import Github from "../../public/Github";
-import Link from "next/link";
+import JavaScript from "../../public/JavaScript";
+import Reactjs from "../../public/Reactjs";
+import Nextjs from "../../public/Nextjs";
+
 import ButtonViewProj from "./ButtonViewProj";
 
 export default function CardJobs(props) {
@@ -19,13 +22,14 @@ export default function CardJobs(props) {
           {props.description}
         </p>
         <div className="flex justify-between my-2 md:my-6 lg:my-2 lg:px-4">
-          <Github fill="#4a25a5" />
-          <Github fill="#4a25a5" />
-          <Github fill="#4a25a5" />
+          <h5 className="text-gray-600">Stack:</h5>
+          <JavaScript fill="#fbbf24" />
+          <Reactjs />
+          <Nextjs fill="#4a25a5" />
         </div>
 
         <div className="w-full">
-          <ButtonViewProj />
+          <ButtonViewProj url={props.url} />
         </div>
 
       </div>

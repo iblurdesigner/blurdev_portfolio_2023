@@ -4,6 +4,8 @@ import logo from '../../public/logoEmotivo.png'
 import hero from "../../public/hero.jpg";
 import SocialMedia from "../components/Social_media";
 import Job from "../components/Job";
+import ButtonBlurdev from "@/components/ButtonBlurdev";
+import Openmail from "@/components/Openmail";
 
 export default function Home() {
   return (
@@ -26,9 +28,7 @@ export default function Home() {
               <p className="text-2xl ">Hola, soy David Flores</p>
               <h1 className=" text-5xl text-blurdev">Frontend Developer</h1>
               <h5 className=" text-lg">y apasionado con el análisis de datos</h5>
-              <button className="bg-blurdev lg:w-1/2 text-blurdev-dark text-xl font-bold px-5 py-2 rounded-3xl mt-10">
-                Descargar CV
-              </button>
+              <ButtonBlurdev name="Hoja de Vida"/>
 
               <div className="w-2/3 md:w-1/2 lg:w-1/3 pt-10 lg:pt-20 flex justify-between gap-4">
                 <SocialMedia />
@@ -66,7 +66,7 @@ export default function Home() {
 
 
 
-      <section className="border lg:w-[80%] w-[%90] items-center md:px-52 my-52">
+      <section className="lg:w-[80%] w-[%90] items-center md:px-52 my-52">
         <div>
           <h2 className="text-5xl text-blurdev h-fit py-5">Acerca de mí</h2>
         </div>
@@ -82,9 +82,7 @@ export default function Home() {
             <div className="">
               <h3 className="text-2xl text-blurdev">Empecemos un proyecto</h3>
             </div>
-            <button className="bg-blurdev lg:w-1/2 text-blurdev-dark text-xl font-bold px-5 py-2 rounded-3xl mt-10">
-              Enviar correo
-            </button>
+            <Openmail />
           </div>
         </div>
       </section>

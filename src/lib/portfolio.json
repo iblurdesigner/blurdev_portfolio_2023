@@ -17,7 +17,8 @@
       "url": "https://ceiq-shop.vercel.app/",
       "title": "CEIQ Shop",
       "description":
-        "E-commerce para CEIQ, desarrollado con Next.js. Pasarela de pago como Stripe, PayPal y la criptomoneda Etherium con la wallet Metamask"
+        "E-commerce para CEIQ, desarrollado con Next.js. Pasarela de pago como Stripe, PayPal y la criptomoneda Etherium con la wallet Metamask",
+      "iconJS": "Javascript"
     },
 
     {
@@ -48,18 +49,8 @@
       "title": "blurtter",
       "description": "A Twitter clone webapp made with NextJS"
     },
-
     {
       "id": 5,
-      "category": "react",
-      "image":
-        "https://storage.googleapis.com/blurdev_portfolio_bucket/reactjs/giffy.jpg",
-      "url": "https://giffy-silk-nine.vercel.app/",
-      "title": "Giffy",
-      "description": "A Gify clone app made with ReactJS"
-    },
-    {
-      "id": 6,
       "category": "react",
       "image":
         "https://storage.googleapis.com/blurdev_portfolio_bucket/reactjs/turismoLoja.jpg",
@@ -70,16 +61,7 @@
     },
 
     {
-      "id": 7,
-      "category": "mobileapps",
-      "image": "https://storage.googleapis.com/blurdev_portfolio_bucket/js/gnm.jpg",
-      "title": "CEIQ app",
-      "description":
-        "Medical Education app by CEIQ, we choose this SDK to gave this app in two plattforms, iOS and Android"
-    },
-
-    {
-      "id":8,
+      "id":6,
       "category": "webstatic",
       "image":
         "https://storage.googleapis.com/blurdev_portfolio_bucket/js/gnm.jpg",
@@ -89,7 +71,7 @@
         "Sitio oficial para una empresa de Embutidos, aplicando JS vanilla, antes que existiera React, logre que se renderizara ciertos componentes del DOM sin recargar la pagina! JS vanilla!!!"
     },
     {
-      "id": 9,
+      "id": 7,
       "category": "webstatic",
       "image":
         "https://storage.googleapis.com/blurdev_portfolio_bucket/webs/meatpro.jpg",
@@ -99,7 +81,7 @@
         "Empresa Alimenticia, Rediseño de landing page, aplicando Responsive Design y JS Vanilla"
     },
     {
-      "id": 10,
+      "id": 8,
       "category": "webstatic",
       "image":
         "https://storage.googleapis.com/blurdev_portfolio_bucket/webs/epcys.jpg",
@@ -109,7 +91,7 @@
         "Comercializadora de insumos para embutidos, diseño de sitio con HTML, JS, CSS, aplicando el responsive design"
     },
     {
-      "id": 11,
+      "id": 9,
       "category": "webstatic",
       "image":
         "https://storage.googleapis.com/blurdev_portfolio_bucket/webs/invie.jpg",
@@ -118,7 +100,7 @@
       "description": "Guitarras Invie, proyecto de responsive design"
     },
     {
-      "id": 12,
+      "id": 10,
       "category": "webstatic",
       "image":
         "https://storage.googleapis.com/blurdev_portfolio_bucket/webs/nova.jpg",
@@ -127,7 +109,7 @@
       "description": "Proyecto de responsive design, manipulando una plantilla"
     },
     {
-      "id": 13,
+      "id": 11,
       "category": "webstatic",
       "image":
         "https://storage.googleapis.com/blurdev_portfolio_bucket/webs/emotivo.jpg",
@@ -137,7 +119,7 @@
         "Portafolio de Blur Studio Design, manipulando una plantilla y utilizando jQuery"
     },
     {
-      "id": 14,
+      "id": 12,
       "category": "webstatic",
       "image":
         "https://storage.googleapis.com/blurdev_portfolio_bucket/webs/mp.jpg",

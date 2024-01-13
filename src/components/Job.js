@@ -1,5 +1,4 @@
 'use client'
-import ButtonFilter from "./ButtonFilter"
 import CardJobs from "./Card_jobs"
 import { useEffect, useState } from "react"
 // const API_URL = 'https://rickandmortyapi.com/api/character'
@@ -39,10 +38,6 @@ export default function Job() {
     }
   }
 
-  const mybu = () => {
-    alert('hello button')
-  }
-
   return (
     <>
       <div className="flex flex-wrap justify-evenly m-auto w-full xl:w-1/2 py-5 text-sm">
@@ -50,7 +45,6 @@ export default function Job() {
         <button className=" bg-devmorado px-8 py-4 m-2 md:px-5 md:py-2 rounded-3xl" value="ecommerce" onClick={filterItems}>E-commerce</button>
         <button className=" bg-devmorado px-8 py-4 m-2 md:px-5 md:py-2 rounded-3xl" value="webapp" onClick={filterItems}>Web Apps</button>
         <button className=" bg-devmorado px-8 py-4 m-2 md:px-5 md:py-2 rounded-3xl" value="react" onClick={filterItems}>React JS</button>
-        <button className=" bg-devmorado px-8 py-4 m-2 md:px-5 md:py-2 rounded-3xl" value="mobileapps" onClick={filterItems}>App mobiles</button>
         <button className=" bg-devmorado px-8 py-4 m-2 md:px-5 md:py-2 rounded-3xl" value="webstatic" onClick={filterItems}>Páginas estáticas</button>
       </div>
 
