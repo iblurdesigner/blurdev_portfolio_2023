@@ -4,9 +4,7 @@ import logo from '../../public/logoEmotivo.png'
 import hero from "../../public/hero.jpg";
 import SocialMedia from "../components/Social_media";
 import Job from "../components/Job";
-import ButtonBlurdev from "@/components/ButtonBlurdev";
 import Openmail from "@/components/Openmail";
-import AnimateDownload from "@/components/AnimateDownload";
 import ButtonDownload from "@/components/ButtonDownload";
 import ArrowDown from "@/components/ArrowDown";
 
@@ -53,7 +51,7 @@ export default function Home() {
 
 
       
-      <section className=" lg:w-[80%] w-full h-30 items-center text-center md:p-10">
+      <section className=" lg:w-[80%] w-full h-30 items-center text-center md:p-10" id="portfolio">
         <h2 className="text-5xl text-blurdev">Proyectos</h2>
         <p className="text-lg">su imaginación en código</p>
 
@@ -67,7 +65,7 @@ export default function Home() {
 
 
 
-      <section className="lg:w-[80%] w-[%90] items-center md:px-52 my-52">
+      <section className="lg:w-[80%] w-[%90] items-center md:px-52 my-52" id="contacto">
         <div>
           <h2 className="text-5xl text-blurdev h-fit py-5">Acerca de mí</h2>
         </div>
