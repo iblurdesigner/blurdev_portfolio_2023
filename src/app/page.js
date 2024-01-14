@@ -6,6 +6,9 @@ import SocialMedia from "../components/Social_media";
 import Job from "../components/Job";
 import ButtonBlurdev from "@/components/ButtonBlurdev";
 import Openmail from "@/components/Openmail";
+import AnimateDownload from "@/components/AnimateDownload";
+import ButtonDownload from "@/components/ButtonDownload";
+import ArrowDown from "@/components/ArrowDown";
 
 export default function Home() {
   return (
@@ -28,7 +31,7 @@ export default function Home() {
               <p className="text-2xl ">Hola, soy David Flores</p>
               <h1 className=" text-5xl text-blurdev">Frontend Developer</h1>
               <h5 className=" text-lg">y apasionado con el análisis de datos</h5>
-              <ButtonBlurdev name="Hoja de Vida"/>
+              <ButtonDownload />
 
               <div className="w-2/3 md:w-1/2 lg:w-1/3 pt-10 lg:pt-20 flex justify-between gap-4">
                 <SocialMedia />
@@ -44,10 +47,8 @@ export default function Home() {
       </article>
 
 
-      <section className="z-10 lg:w-[80%] w-full items-center justify-between text-sm lg:flex group">
-        <span className="text-center text-6xl text-blurdev justify-center w-full inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none rotate-90 hover:translate-y-2">
-          ⨠
-        </span>
+      <section className="lg:w-[80%] w-full h-30 flex justify-center text-center md:p-10">
+          <ArrowDown />
       </section>
 
 
