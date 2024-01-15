@@ -1,28 +1,29 @@
 'use client'
 import CardJobs from "./Card_jobs"
 import { useEffect, useState } from "react"
-// const API_URL = 'https://rickandmortyapi.com/api/character'
 
 export default function Job() {
-  const API_URL = 'http://localhost:3000/api'
+  // const API_URL = 'http://localhost:3000/api'
+
   const [items, setItems] = useState({
     allJobs: [],
     filterJobs: []
   })
 
   useEffect( ()=> {
-    fetch(API_URL)
+    fetch('api')
       .then(response => response.json())
       .then(data => setItems({
         allJobs: data.data.results,
         filterJobs: data.data.results,
       }))
-  }, [])
+    }, [])
+
 
   const filterItems = (e) => {
     e.preventDefault()
     const event = e.target.value
-    console.log(event)
+    // console.log(event)
 
     if(event !== 'ALL') {
       setItems({
