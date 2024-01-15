@@ -18,7 +18,7 @@ const Header = () => {
     // window.addEventListener('scroll', setFixed)
 
   return (
-    <header className="fixed top-0 backdrop-filter backdrop-blur-xl z-10 lg:w-[80%] grid grid-flow-row md:grid md:grid-cols-2  h-fit text-sm">
+    <header className="fixed top-0 backdrop-filter backdrop-blur-xl z-10 lg:w-[80%] grid grid-flow-row md:grid md:grid-cols-2 text-sm">
         <div className="mt-5  lg:w-1/2">
           <Image src={logo} width={329} height={80} className="" alt="logoeMotivoDev" />
         </div>
