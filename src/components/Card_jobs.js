@@ -1,10 +1,5 @@
 import Image from "next/image";
 
-import Github from "../../public/Github";
-import JavaScript from "../../public/JavaScript";
-import Reactjs from "../../public/Reactjs";
-import Nextjs from "../../public/Nextjs";
-
 import ButtonViewProj from "./ButtonViewProj";
 
 export default function CardJobs(props) {
@@ -23,9 +18,17 @@ export default function CardJobs(props) {
         </p>
         <div className="flex justify-between my-2 md:my-6 lg:my-2 lg:px-4">
           <h5 className="text-gray-600">Stack:</h5>
-          <JavaScript fill="#fbbf24" />
-          <Reactjs />
-          <Nextjs fill="#4a25a5" />
+
+          <div className="h-8 w-full flex space-arround gap-4 p-2">
+            {
+              (props.icons !== undefined) && (
+                Object.values(props.icons).map((icon, index) => (
+                  <img key={index} src={icon} alt={props.title} width={`30px`} className="w-6"  />
+                ))
+              )
+            }
+          </div>
+
         </div>
 
         <div className="w-full">

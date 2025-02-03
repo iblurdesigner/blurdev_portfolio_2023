@@ -18,10 +18,10 @@ export default function Home() {
 
 
       
-      <section className=" lg:w-[80%] w-full h-30 items-center text-center pt-48 md:p-28" id="portfolio">
+      <section className=" w-full h-30 items-center text-center pt-48 md:p-28" id="portfolio">
         <h2 className="text-5xl text-blurdev">Proyectos</h2>
         <p className="text-lg">su imaginación en código</p>
-        <section>
+        <section className="w-full">
           <Job />
         </section>
       </section>

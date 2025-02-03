@@ -1,5 +1,5 @@
 import * as React from "react"
-const SvgComponent = (props) => (
+const Css3 = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     aria-label="CSS3"
@@ -20,4 +20,4 @@ const SvgComponent = (props) => (
     />
   </svg>
 )
-export default SvgComponent
+export default Css3

@@ -1,5 +1,5 @@
 import * as React from "react"
-const SvgComponent = (props) => (
+const JavaScript = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
@@ -17,4 +17,4 @@ const SvgComponent = (props) => (
     <path d="M7.5 8h3v8l-2-1M16.5 8H14a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h1.423a.5.5 0 0 1 .495.57L15.5 15.5l-2 .5" fill={props.fill} />
   </svg>
 )
-export default SvgComponent
+export default JavaScript

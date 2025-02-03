@@ -22,7 +22,7 @@ const Hero = () => {
 
           </article>
           <div className="w-full max-sm:invisible md:visible md:flex ">
-            <Image src={hero} sizes="(min-width: 768px) 370" width={732} height={704} className="max-sm:w-0 max-sm:h-0 object-contain" alt="foto de David Flores" />
+            <Image src={hero} sizes="(min-width: 768px) 370" width={732} height={704} className="max-sm:w-0 max-sm:h-0 object-contain" alt="foto de David Flores" priority />
           </div>
         </section>
       </article>

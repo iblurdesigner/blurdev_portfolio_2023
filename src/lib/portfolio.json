@@ -18,7 +18,11 @@
       "title": "CEIQ Shop",
       "description":
         "E-commerce para CEIQ, desarrollado con Next.js. Pasarela de pago como Stripe, PayPal y la criptomoneda Etherium con la wallet Metamask",
-      "iconJS": "Javascript"
+      "iconJS": {
+        "reactjs": "/react.png",
+        "nextjs": "/next.png",
+        "mongodb": "/mongo.png"
+      }
     },
 
     {
@@ -29,7 +33,13 @@
       "url": "https://petgram-blur-proyect.now.sh/",
       "title": "El instagram de tus mascotas",
       "description":
-        "Un clon de instagram para que compartas las fotos más cool de tus bendiciones"
+        "Un clon de instagram para que compartas las fotos más cool de tus bendiciones",
+      "iconJS": {
+        "reactjs": "/react.png",
+        "graphql": "/graph.png",
+        "apollo": "/apollo.png",
+        "mongodb": "/mongo.png"
+      }
     },
     {
       "id": 3,
@@ -38,7 +48,11 @@
         "https://storage.googleapis.com/blurdev_portfolio_bucket/reactjs/giffy.jpg",
       "url": "https://giffy-silk-nine.vercel.app/",
       "title": "Giffy",
-      "description": "A Gify clone app made with ReactJS"
+      "description": "A Gify clone app made with ReactJS",
+      "iconJS": {
+        "reactjs": "/react.png",
+        "react-router": "/rrouter.png"
+      }
     },
     {
       "id": 4,
@@ -47,7 +61,12 @@
         "https://storage.googleapis.com/blurdev_portfolio_bucket/webapp/blurtter.jpg",
       "url": "https://blurtter.vercel.app/",
       "title": "blurtter",
-      "description": "A Twitter clone webapp made with NextJS"
+      "description": "A Twitter clone webapp made with NextJS",
+      "iconJS": {
+        "nextjs": "/next.png",
+        "reactjs": "/react.png",
+        "mongodb": "/mongo.png"
+      }
     },
     {
       "id": 5,
@@ -57,7 +76,11 @@
       "url": "https://turismo-loja-app3.now.sh/",
       "title": "Turismo Loja",
       "description":
-        "Probando ReactJS, ejemplo de sitio informativo y de registro a eventos"
+        "Probando ReactJS, ejemplo de sitio informativo y de registro a eventos",
+      "iconJS": {
+        "reactjs": "/react.png",
+        "react-router": "/rrouter.png"
+      }
     },
 
     {
@@ -68,7 +91,12 @@
       "url": "http://iblurdesigner.github.io/gruponm/index.html",
       "title": "Grupo NM",
       "description":
-        "Sitio oficial para una empresa de Embutidos, aplicando JS vanilla, antes que existiera React, logre que se renderizara ciertos componentes del DOM sin recargar la pagina! JS vanilla!!!"
+        "Sitio oficial para una empresa de Embutidos, aplicando JS vanilla, antes que existiera React, logre que se renderizara ciertos componentes del DOM sin recargar la pagina! JS vanilla!!!",
+      "iconJS": {
+        "javascript": "/js.png",
+        "html": "/html.png",
+        "css": "/css.png"
+      }
     },
     {
       "id": 7,
@@ -78,7 +106,12 @@
       "url": "https://iblurdesigner.github.io/landingmp/#!",
       "title": "Meat Pro",
       "description":
-        "Empresa Alimenticia, Rediseño de landing page, aplicando Responsive Design y JS Vanilla"
+        "Empresa Alimenticia, Rediseño de landing page, aplicando Responsive Design y JS Vanilla",
+      "iconJS": {
+        "javascript": "/js.png",
+        "html": "/html.png",
+        "css": "/css.png"
+      }
     },
     {
       "id": 8,
@@ -88,7 +121,12 @@
       "url": "http://iblurdesigner.github.io/epcys/",
       "title": "Epcys",
       "description":
-        "Comercializadora de insumos para embutidos, diseño de sitio con HTML, JS, CSS, aplicando el responsive design"
+        "Comercializadora de insumos para embutidos, diseño de sitio con HTML, JS, CSS, aplicando el responsive design",
+      "iconJS": {
+        "javascript": "/js.png",
+        "html": "/html.png",
+        "css": "/css.png"
+      }
     },
     {
       "id": 9,
@@ -97,7 +135,12 @@
         "https://storage.googleapis.com/blurdev_portfolio_bucket/webs/invie.jpg",
       "url": "https://iblurdesigner.github.io/invie-responsive/",
       "title": "Invie",
-      "description": "Guitarras Invie, proyecto de responsive design"
+      "description": "Guitarras Invie, proyecto de responsive design",
+      "iconJS": {
+        "javascript": "/js.png",
+        "html": "/html.png",
+        "css": "/css.png"
+      }
     },
     {
       "id": 10,
@@ -106,7 +149,12 @@
         "https://storage.googleapis.com/blurdev_portfolio_bucket/webs/nova.jpg",
       "url": "http://iblurdesigner.github.io/novameats/",
       "title": "NovaMeats",
-      "description": "Proyecto de responsive design, manipulando una plantilla"
+      "description": "Proyecto de responsive design, manipulando una plantilla",
+      "iconJS": {
+        "javascript": "/js.png",
+        "html": "/html.png",
+        "css": "/css.png"
+      }
     },
     {
       "id": 11,
@@ -116,7 +164,12 @@
       "url": "http://iblurdesigner.github.io/emotivo/",
       "title": "Studio Design",
       "description":
-        "Portafolio de Blur Studio Design, manipulando una plantilla y utilizando jQuery"
+        "Portafolio de Blur Studio Design, manipulando una plantilla y utilizando jQuery",
+      "iconJS": {
+        "javascript": "/js.png",
+        "html": "/html.png",
+        "css": "/css.png"
+      }
     },
     {
       "id": 12,
@@ -126,7 +179,12 @@
       "url": "http://iblurdesigner.github.io/MP-Group/",
       "title": "MP Group",
       "description":
-        "Clusting empresarial, aplicacion de efectos de hover con css y js"
+        "Clusting empresarial, aplicacion de efectos de hover con css y js",
+      "iconJS": {
+        "javascript": "/js.png",
+        "html": "/html.png",
+        "css": "/css.png"
+      }
     }
   ]
 }

@@ -51,7 +51,7 @@ export default function Job() {
 
       <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
         {items.allJobs.map((item) => (
-            <CardJobs key={item.id} src={item.image} title={item.title} description={item.description} url={item.url} />
+            <CardJobs key={item.id} src={item.image} title={item.title} description={item.description} url={item.url} icons={item.iconJS} />
           ))
         }
       </div>
